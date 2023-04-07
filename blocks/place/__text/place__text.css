@@ -1,0 +1,14 @@
+.place__text {
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.place__text:nth-child(4) {
+  grid-area: place__text1;
+}
+
+.place__text:nth-child(5) {
+  grid-area: place__text2;
+}

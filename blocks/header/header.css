@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    margin: 28px 48px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    margin: 28px 48px 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .header {
+    margin: 28px 48px 0;
+  }
+}

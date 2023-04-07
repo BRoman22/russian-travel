@@ -1,0 +1,22 @@
+.lead {
+  text-align: center;
+}
+
+
+@media (min-width: 1024px) {
+  .lead {
+    margin: 56px 148px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lead {
+    margin: 56px 148px 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .lead {
+    margin: 56px 148px 0;
+  }
+}

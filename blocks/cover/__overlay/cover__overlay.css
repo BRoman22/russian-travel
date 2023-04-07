@@ -1,0 +1,13 @@
+.cover__overlay {
+  display: block;
+  opacity: .8;
+
+  background-image: url(../../../images/overlay.jpg);
+  padding-bottom: 62.5%;
+  background-size: cover;
+}
+
+
+.cover__overlay:hover {
+  opacity: .3;
+}

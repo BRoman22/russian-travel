@@ -1,0 +1,10 @@
+.lead__subtitle {
+  margin: 0px 0 64px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.lead__subtitle span {
+  display: block;
+}

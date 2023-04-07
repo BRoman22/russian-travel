@@ -1,0 +1,7 @@
+.place__website {
+  grid-area: place__website;
+  align-self: end;
+  margin-bottom: 48px;
+  text-decoration: none;
+  width: fit-content;
+}
