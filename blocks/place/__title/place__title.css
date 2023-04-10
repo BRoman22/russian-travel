@@ -20,6 +20,10 @@
     margin: 0 0 48px;
     max-width: 50%;
   }
+
+  .place:nth-child(4) .place__title {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
