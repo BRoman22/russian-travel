@@ -9,8 +9,8 @@
     grid-template-areas:
       "place__title place__website"
       "place__image .";
-    column-gap: 2.5em;
-    row-gap: 3em;
+    column-gap: 40px;
+    row-gap: 48px;
   }
 }
 
@@ -22,6 +22,6 @@
       "place__website"
       "place__image"
       ".";
-    row-gap: 2em;
+    row-gap: 32px;
   }
 }

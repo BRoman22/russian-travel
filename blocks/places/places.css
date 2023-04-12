@@ -1,9 +1,3 @@
-.places {
-  padding: 0;
-  list-style-type: none;
-}
-
-
 @media (min-width: 1280px) {
   .places {
     margin: 92px 148px 0;
@@ -24,6 +18,6 @@
 
 @media (max-width: 767px) {
   .places {
-    margin: 64px auto 0;
+    margin: 64px auto;
   }
 }

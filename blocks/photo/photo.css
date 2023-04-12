@@ -1,10 +1,4 @@
-@media (min-width: 1280px) {
-  .photo {
-    margin: 92px 48px 0;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) {
   .photo {
     margin: 92px 48px 0;
   }
