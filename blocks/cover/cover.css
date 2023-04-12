@@ -1,5 +1,8 @@
 .cover {
-  position: relative;
+  background-image: url(../../images/overlay.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -23,6 +26,6 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .cover {
-    margin: 66px 0px 0;
+    margin: 66px 0 0;
   }
 }

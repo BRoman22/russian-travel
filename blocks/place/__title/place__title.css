@@ -1,6 +1,7 @@
 .place__title {
   font-weight: 900;
   grid-area: place__title;
+  margin: 0;
 }
 
 
@@ -8,8 +9,7 @@
   .place__title {
     font-size: 72px;
     line-height: 1.06;
-    margin: 0 0 48px;
-    max-width: 80%;
+    max-width: 90%;
   }
 }
 
@@ -17,12 +17,7 @@
   .place__title {
     font-size: 42px;
     line-height: 1.1;
-    margin: 0 0 48px;
-    max-width: 50%;
-  }
-
-  .place:nth-child(4) .place__title {
-    max-width: 100%;
+    max-width: 97%;
   }
 }
 
@@ -30,6 +25,6 @@
   .place__title {
     font-size: 32px;
     line-height: 1.09;
-    margin: 0 16px 32px;
+    margin: 0 16px;
   }
 }

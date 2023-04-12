@@ -1,12 +1,11 @@
 .header__lang-link {
   color: #FFF;
   font-weight: 400;
-  display: inline-block;
-  text-decoration: none;
+  cursor: pointer;
 }
 
-.header__lang-link:nth-child(2) {
-  margin-left: 18px;
+.header__lang-link:hover {
+  opacity: .8;
 }
 
 

@@ -1,28 +1,16 @@
 .cover__subtitle {
   color: #FFF;
   font-weight: 400;
-  position: absolute;
-  left: 0;
-  right: 0;
-  text-align: center;
+  margin: 0;
+  z-index: 1;
 }
 
 
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .cover__subtitle {
     font-size: 18px;
     line-height: 1.22;
-    margin: 429px auto 0;
     max-width: 35%;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .cover__subtitle {
-    font-size: 18px;
-    line-height: 1.22;
-    margin: 379px auto 0;
-    max-width: 45%;
   }
 }
 
@@ -30,25 +18,14 @@
   .cover__subtitle {
     font-size: 18px;
     line-height: 1.22;
-    margin: 299px auto 0;
     max-width: 50%;
   }
 }
 
-@media (min-width: 450px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 1.14;
-    margin: 160px auto 0;
-    max-width: 70%;
-  }
-}
-
-@media (max-width: 449px) {
-  .cover__subtitle {
-    font-size: 14px;
-    line-height: 1.14;
-    margin: 119px auto 0;
     max-width: 86%;
   }
 }

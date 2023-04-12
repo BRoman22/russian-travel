@@ -21,20 +21,20 @@
   }
 }
 
-@media (min-width: 450px) and (max-width: 767px) {
+@media (min-width: 500px) and (max-width: 767px) {
   .lead__subtitle {
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.25;
     margin: 0 auto 40px;
     max-width: 53%;
   }
 }
 
-@media (max-width: 449px) {
+@media (max-width: 499px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;
     margin: 0 auto 40px;
-    max-width: 80%;
+    max-width: 82%;
   }
 }

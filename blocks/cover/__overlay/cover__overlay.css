@@ -1,16 +1,23 @@
 .cover__overlay {
-  display: block;
-
-  background-image: url(../../../images/overlay.jpg);
-  padding-bottom: 62.5%;
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  gap: 32px;
 }
 
 .cover__overlay::before {
   content: '';
-  display: block;
   width: 100%;
   height: 100%;
+  top: 0;
+  left: 0;
+  transition: .7s;
   position: absolute;
   background: rgb(42, 44, 47);
   opacity: .3;
@@ -18,6 +25,31 @@
 
 .cover__overlay:hover::before {
   content: '';
-  background: rgb(42, 44, 47);
   opacity: .8;
+}
+
+
+@media (min-width: 1280px) {
+  .cover__overlay {
+    min-height: 740px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover__overlay {
+    min-height: 200px;
+    gap: 16px;
+  }
 }
