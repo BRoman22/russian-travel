@@ -8,6 +8,11 @@
   position: relative;
   cursor: pointer;
   gap: 32px;
+
+  background-image: url(../../../images/overlay.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .cover__overlay::before {
@@ -23,7 +28,6 @@
 }
 
 .cover__overlay:hover::before {
-  content: '';
   opacity: .8;
 }
 
